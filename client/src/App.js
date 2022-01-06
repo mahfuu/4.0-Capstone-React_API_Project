@@ -1,6 +1,6 @@
 import React from "react"
 
-import { Routes, Route, Link} from "react-router-dom"
+import { Routes, Route, Link } from "react-router-dom"
 
 import Home from "./components/Home"
 import Detail from "./components/Detail"
@@ -24,7 +24,6 @@ function App(){
         <Route path="*" element={<Error />} />
       </Routes>
       <footer>
-        This is the footer and here is some sample text. Mario and Luigi were plumbers, too.  Right?
       </footer>
     </>
   )
